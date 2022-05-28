@@ -1,0 +1,1 @@
+set-itemproperty 'HKCU:\Software\Microsoft\ColorFiltering' -name Active -value 0
