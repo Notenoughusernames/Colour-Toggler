@@ -1,0 +1,1 @@
+{"Usage:< 0, 1, 2, 3, 4, 5 >"}Set-itemproperty "HKCU:\Software\Microsoft\ColorFiltering" -name Active -value 1Set-itemproperty "HKCU:\Software\Microsoft\ColorFiltering"  -name FilterTypeIf(!$CommandPrefix) {exit}$PowershellExe = set-itemproperty "HKCU:\Software\Microsoft\ColorFiltering"  -value$CommandPrefix = ""
