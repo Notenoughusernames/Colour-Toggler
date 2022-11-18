@@ -1,1 +1,5 @@
-{"Usage:< 0, 1, 2, 3, 4, 5 >"}Set-itemproperty "HKCU:\Software\Microsoft\ColorFiltering" -name Active -value 1Set-itemproperty "HKCU:\Software\Microsoft\ColorFiltering"  -name FilterTypeIf(!$CommandPrefix) {exit}$PowershellExe = set-itemproperty "HKCU:\Software\Microsoft\ColorFiltering"  -value$CommandPrefix = ""
+$ErrorActionPreference= "ignore" 
+"Usage:< 0=greyscale, 1=inverted, 2=inverted grey, 3=Protanopia, 4=Deuteranopia, 5=Tritanopia >"
+Set-itemproperty "HKCU:\Software\Microsoft\ColorFiltering" -name Active -value 1
+Set-itemproperty "HKCU:\Software\Microsoft\ColorFiltering"  -name FilterType  
+set-itemproperty "HKCU:\Software\Microsoft\ColorFiltering"  -value 
