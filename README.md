@@ -1,15 +1,15 @@
-# Colour-Toggler
+# Colour-Toggle
 CLI toggling for windows 11 built in colour filters i.e greyscale. Useful for reading.
 --------------------------------------------------------------------------------------
 0 = Greyscale
 
 1 = Inverted
 
-2 = Greyscale inverted
+2 = Grey inverted
 
-3 = Red-Green Weak
+3 = Red-Green (Protanopia)
 
-4 = Red-Green Red Weak
+4 = Red-Green (Deuteranopia)
 
-5 = Blue-Yellow
+5 = Blue-Yellow (Tritanopia)
 
