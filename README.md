@@ -1,5 +1,5 @@
-# Colour-Toggle
-CLI toggling for windows 11 built in colour filters i.e greyscale. Useful for reading.
+# Cfilter; Colour-Toggle
+CLI toggle for windows 11 built in colour filters i.e greyscale. Useful for reading.
 --------------------------------------------------------------------------------------
 0 = Greyscale
 
